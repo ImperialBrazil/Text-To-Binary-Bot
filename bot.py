@@ -6,6 +6,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 from app.config_reader import load_config
 from app.handlers.binary_to_text import register_binary_to_text
+from app.handlers.common import register_handlers_common
 from app.handlers.text_to_binary import register_text_to_binary
 
 logger = logging.getLogger(__name__)
@@ -25,6 +26,7 @@ async def main():
     #
     register_binary_to_text(dp)
     register_text_to_binary(dp)
+    register_handlers_common(dp)
     #
     await dp.start_polling()
 
