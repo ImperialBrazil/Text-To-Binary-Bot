@@ -12,8 +12,6 @@ https://t.me/Text_To_Binary_Bot
 - [/help](https://github.com/coder8jedi/ReminderBot#start--help) - print a list of commands
 
 ## File Tree
-
-## File Tree
 <details>
 <summary>OPEN</summary>
 
