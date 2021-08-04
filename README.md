@@ -11,6 +11,28 @@ https://t.me/Text_To_Binary_Bot
 - [/cancel](https://github.com/coder8jedi/ReminderBot#cancel) - cancel
 - [/help](https://github.com/coder8jedi/ReminderBot#start--help) - print a list of commands
 
+## File Tree
+
+## File Tree
+<details>
+<summary>OPEN</summary>
+
+```
+├── app/
+│ ├── handlers/
+│ │ ├── __init__.py
+│ │ ├── binary_to_text.py
+│ │ ├── common.py
+│ │ └── text_to_binary.py
+│ ├── __init__.py
+│ └── config_reader.py
+├── config/
+│ └── bot.ini
+└── bot.py
+```
+ 
+</details>
+
 ### Start & Help
 ```/help``` - print a list of commands
 
